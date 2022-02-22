@@ -79,18 +79,28 @@ img {
   text-align: center;
 }
 
+@keyframes spinIt {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .logo {
   /* width: 176px; */
   margin-left: -12px;
   margin-top: -1em;
   margin-bottom: 2em;
   text-align: center;
-  transition: all 30s linear;
+  animation: 21s linear 4s 73 spinIt;
+  /* transition: all 30s linear; */
 }
-.logo:hover {
+
+/* .logo:hover {
   transform: rotate(1200deg);
-  /* translate: var(--animate-x) var(--animate-y); */
-}
+} */
 
 #italic {
   font-style: italic;
