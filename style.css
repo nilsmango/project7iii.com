@@ -55,7 +55,7 @@ h1 {
 
 h2 {
   font-size: var(--fs-normal);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-normal);
   letter-spacing: -0.04rem;
   color: var(--clr-black);
   margin-top: -3.5rem;
